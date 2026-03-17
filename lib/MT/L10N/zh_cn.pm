@@ -21,6 +21,10 @@ use vars qw( @ISA %Lexicon );
 
 %Lexicon = (
 
+##修复日期格式问题
+	'_LOCALE_CALENDAR_HEADER_' => '日,一,二,三,四,五,六',
+	'_LOCALE_CALENDAR_MONTH_NAMES_' => '一月,二月,三月,四月,五月,六月,七月,八月,九月,十月,十一月,十二月',
+
 ## addons/Commercial.pack/config.yaml
 	'Are you sure you want to delete the selected CustomFields?' => '您确定要删除选定的自定义字段吗？',
 	'Child Site' => '子站点',

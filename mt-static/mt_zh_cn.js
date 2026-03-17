@@ -4,8 +4,14 @@
  * Website：https://www.thinkjam.org/zoptuno
  * X：https://x.com/Zoptuno
  */
+/* 直接定义全局变量以修复 ReferenceError */
+var _LOCALE_CALENDAR_HEADER_ = '日,一,二,三,四,五,六';
+var _LOCALE_CALENDAR_MONTH_NAMES_ = '一月,二月,三月,四月,五月,六月,七月,八月,九月,十月,十一月,十二月';
 
-
+/* 原有的 Lexicon 定义 */
+if (typeof Lexicon == 'undefined') Lexicon = {};
+Lexicon['_LOCALE_CALENDAR_HEADER_'] = '一,二,三,四,五,六,日';
+Lexicon['_LOCALE_CALENDAR_MONTH_NAMES_'] = '一月,二月,三月,四月,五月,六月,七月,八月,九月,十月,十一月,十二月';
 Lexicon[' and '] = '和';
 Lexicon['(None)'] = '(无)';
 Lexicon['1 or more label-value pairs are required'] = '需要至少1个标签和值的组合。';
