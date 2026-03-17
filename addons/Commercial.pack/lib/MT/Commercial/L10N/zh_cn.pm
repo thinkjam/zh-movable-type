@@ -141,7 +141,7 @@ use utf8;
 	'Drop Down Menu' => '下拉菜单',
 	'Embed Object' => '嵌入对象',
 	'Exclude Custom Fields' => '排除自定义字段',
-	'Movable Type' => '可移动文字',
+	'Movable Type' => 'Movable Type',
 	'Multi-Line Text' => '多行文本',
 	'Permission denied.' => '权限被拒绝。',
 	'Please ensure all required fields have been filled in.' => '请确保已填写所有必填字段。',
@@ -375,7 +375,7 @@ use utf8;
 	'Pages' => '页面',
 
 ## addons/Commercial.pack/templates/professional/blog/powered_by_footer.mtml
-	'_POWERED_BY' => 'Powered by <a href="https://www.sixapart.jp/movabletype/"><$MTProductName$></a> | 语言包由<a href="https://www.thinkjam.org/zoptuno/projects/zh-movable-type.html">平生一笑</a>维护',
+	'_POWERED_BY' => 'Powered by <a href="https://www.sixapart.jp/movabletype/"><$MTProductName$></a>',
 
 ## addons/Commercial.pack/templates/professional/blog/recent_comments.mtml
 	'<a href="[_1]">[_2] commented on [_3]</a>: [_4]' => '<a href="  ">[_2]对[_3]</a> 发表了评论：[_4]',

@@ -36,7 +36,7 @@ use vars qw( @ISA %Lexicon );
 	'Create Custom Field' => '創建自定义字段',
 	'Custom Fields' => '自定义字段',
 	'Customize the forms and fields for entries, pages, folders, categories, and users, storing exactly the information you need.' => '自定义条目、頁面、文件夹、類別和用戶的表单和字段，准確存儲您需要的信息。',
-	'Movable Type' => '可移動文字',
+	'Movable Type' => 'Movable Type',
 	'Permission denied.' => '權限被拒绝。',
 	'Please ensure all required fields have been filled in.' => '请確保已填写所有必填字段。',
 	'Please enter valid URL for the URL field: [_1]' => '请在 URL 字段中輸入有效的 URL：[_1]',
@@ -346,7 +346,7 @@ use vars qw( @ISA %Lexicon );
 	'Continue reading <a href="[_1]" rel="bookmark">[_2]</a>.' => '继续閱读 <a href="  " rel="bookmark">[_2]</a> .',
 
 ## default_templates/footer-email.mtml
-	'Powered by Movable Type [_1]' => '由可移動式[_1]提供動力',
+	'Powered by Movable Type [_1]' => 'Powered by Movable Type [_1] | 中文化由<a href="https://www.thinkjam.org/zoptuno/projects/zh-movable-type.html">平生一笑</a>維護',
 
 ## default_templates/javascript.mtml
 	'Edit' => '編輯',
@@ -467,7 +467,7 @@ use vars qw( @ISA %Lexicon );
 	'Invalid priority level [_1] at add_callback' => 'add_callback 的無效优先級 [_1]',
 	'LiveJournal' => 'LiveJournal',
 	'Missing configuration file. Maybe you forgot to move mt-config.cgi-original to mt-config.cgi?' => '缺少配置文件。也许您忘記将 mt-config.cgi-original 移至 mt-config.cgi？',
-	'Movable Type default' => '移動文字默認',
+	'Movable Type default' => 'Movable Type 默認',
 	'OpenID' => 'OpenID',
 	'Plugin error: [_1] [_2]' => '插件錯誤：[_1] [_2]',
 	'Powered by [_1]' => '由[_1]提供支持',
@@ -606,7 +606,7 @@ use vars qw( @ISA %Lexicon );
 	'Invalid parameter' => '參數無效',
 	'Manage Members' => '管理成员',
 	'Manage' => '管理',
-	'Movable Type News' => '移動文字新闻',
+	'Movable Type News' => 'Movable Type 新闻',
 	'Move Child Site(s)'=> 'Move Child Site(s) ',
 	'New' => '新建',
 	'No such blog [_1]' => '没有这样的博客 [_1]',
@@ -1167,7 +1167,7 @@ use vars qw( @ISA %Lexicon );
 	'Site URL must be an absolute URL.' => '站點 URL 必須是绝對 URL。',
 	'The number of revisions to store must be a positive integer.' => '要存儲的修訂數量必須是正整數。',
 	'The file extension must be shorter than 10 characters.' => '文件扩展名必須短于 10字符。',
-	'These setting(s) are overridden by a value in the Movable Type configuration file: [_1]. Remove the value from the configuration file in order to control the value on this page.' => '这些設置被可移動類型配置文件中的值覆盖：[_1]。从配置文件中刪除該值，以便控制此頁面上的值。',
+	'These setting(s) are overridden by a value in the Movable Type configuration file: [_1]. Remove the value from the configuration file in order to control the value on this page.' => '这些設置被 Movable Type 配置文件中的值覆盖：[_1]。从配置文件中刪除該值，以便控制此頁面上的值。',
 	'This action can only be run on a single child site at a time.' => '此操作一次只能在一個子網站上运行。',
 	'This action can only clone a child site.' => '此操作只能克隆子網站。',
 	'Website Root' => '網站根',
@@ -1960,7 +1960,7 @@ use vars qw( @ISA %Lexicon );
 	'Member' => '成员',
 	'Members' => '成员',
 	'Modified by' => '修改者',
-	'Movable Type Default' => '移動文字默認',
+	'Movable Type Default' => 'Movable Type 默認',
 	'My Items' => '我的项目',
 	'My [_1]' => '我的[_1]',
 	'MySQL Database (Recommended)' => 'MySQL 數據庫（推荐）',
@@ -3140,8 +3140,8 @@ use vars qw( @ISA %Lexicon );
 	'Details' => '詳细信息',
 	'Installed' => '已安裝',
 	'MT home directory:' => 'MT 主目錄：',
-	'Movable Type System Check Successful' => '移動文字系統检查成功',
-	'Movable Type System Check' => '移動文字系統检查',
+	'Movable Type System Check Successful' => 'Movable Type 系統检查成功',
+	'Movable Type System Check' => 'Movable Type 系統检查',
 	'Movable Type version:' => 'Movable Type 版本：',
 	'Operating system:' => '操作系統：',
 	'Perl include path:' => 'Perl 包含路径：',
@@ -3440,7 +3440,7 @@ use vars qw( @ISA %Lexicon );
 	'Invalid commenter login attempt from [_1] to blog [_2](ID: [_3]) which does not allow Movable Type native authentication.' => '評論者从[_1]登錄博客 [_2]（ID：[_3]）的尝试無效，該尝试不允许 Movable Type 本机身份验证。',
 	'Invalid entry ID provided' => '提供的条目 ID 無效',
 	'Invalid login' => '登錄無效',
-	'Movable Type Account Confirmation' => '移動文字帳戶確認',
+	'Movable Type Account Confirmation' => 'Movable Type 帳戶確認',
 	'Name and E-mail address are required.' => '姓名和電子郵件地址为必填项。',
 	'No entry was specified; perhaps there is a template problem?' => '未指定条目；也许存在模板問题？',
 	'No entry_id' => '没有entry_id',
@@ -4308,7 +4308,7 @@ use vars qw( @ISA %Lexicon );
 	'Back (x)' => '返回(x)',
 	'Reset (s)' => '重置',
 	'Reset Password' => '重置密碼',
-	'Sign in to Movable Type (s)' => '登錄活字印刷',
+	'Sign in to Movable Type (s)' => '登錄 Movable Type',
 	'Sign in to Movable Type' => '登錄 Movable Type',
 	'The email address provided is not unique.  Please enter your username.' => '提供的電子郵件地址不是唯一的。  请輸入您的用戶名。',
 
@@ -4986,7 +4986,7 @@ use vars qw( @ISA %Lexicon );
 	q{_BACKUP_DOWNLOAD_MESSAGE} => q{_BACKUP_DOWNLOAD_MESSAGE},
 
 ## tmpl/admin2023/cms/include/backup_start.tmpl
-	'Exporting Movable Type' => '導出可移動文字',
+	'Exporting Movable Type' => '導出 Movable Type',
 
 ## tmpl/admin2023/cms/include/basic_filter_forms.tmpl
 	'[_1] [_2] [_3]' => '[_1][_2][_3]',
@@ -5048,7 +5048,7 @@ use vars qw( @ISA %Lexicon );
 	'Republish selected [_1] (r)' => '重新發佈選定的[_1](r)',
 
 ## tmpl/admin2023/cms/include/copyright.tmpl
-	'Copyright &copy; 2001 Six Apart. All Rights Reserved.' => '版權&復制； 2001年六人分开。保留所有權利。',
+	'Copyright &copy; 2001 Six Apart. All Rights Reserved.' => 'Copyright &copy; 2001 Six Apart. All Rights Reserved. | 中文化由<a href="https://www.thinkjam.org/zoptuno/projects/zh-movable-type.html">平生一笑</a>維護',
 
 ## tmpl/admin2023/cms/include/entry_table.tmpl
 	'<a href="[_1]" class="alert-link">Create an entry</a> now.' => '<a href="  " class="alert-link"> 立即創建条目</a>。',
@@ -5064,7 +5064,7 @@ use vars qw( @ISA %Lexicon );
 	'Send Us Feedback' => '向我们發送反馈',
 	'Support' => 'Support',
 	'This is a alpha version of Movable Type and is not recommended for production use.' => '这是 Movable Type 的 Alpha 版本，不建议用于生产用途。',
-	'This is a beta version of Movable Type and is not recommended for production use.' => '这是 Beta 版本。可移動類型，不建议用于生产用途。',
+	'This is a beta version of Movable Type and is not recommended for production use.' => '这是 Movable Type Beta 版本，不建议用于生产用途。',
 	'https://plugins.movabletype.org/' => 'https://plugins.movabletype.org/',
 	'https://www.movabletype.org' => 'https://www.movabletype.org',
 	'with' => 'with',
@@ -5536,7 +5536,7 @@ use vars qw( @ISA %Lexicon );
 	'An error occurred during the import process: [_1] Please check activity log for more details.' => '導入過程中發生錯誤：[_1] 请检查活動日誌以了解更多詳细信息。',
 
 ## tmpl/admin2023/cms/restore_start.tmpl
-	'Importing Movable Type' => '導入可移動類型',
+	'Importing Movable Type' => '導入 Movable Type',
 
 ## tmpl/admin2023/cms/search_replace.tmpl
 	'(search only)' => '（仅搜索）',
@@ -5626,7 +5626,7 @@ use vars qw( @ISA %Lexicon );
 
 ## tmpl/admin2023/cms/widget/mt_news.tmpl
 	'News' => '新闻',
-	'No Movable Type news available.' => '没有可用的可移動類型新闻。',
+	'No Movable Type news available.' => '没有可用的 Movable Type 新闻。',
 
 ## tmpl/admin2023/cms/widget/notification_dashboard.tmpl
 	'Messages from the system' => '来自系統的消息',
@@ -5729,7 +5729,7 @@ use vars qw( @ISA %Lexicon );
 	'Mail address to which test email should be sent' => '测试電子郵件应發送到的郵件地址已發送',
 	'Outbound Mail Server (SMTP)' => '出站郵件服務器 (SMTP)',
 	'Password for your SMTP Server.' => '您的 SMTP 服務器密碼。',
-	'Periodically Movable Type will send email for password recovery, to inform authors of new comments, and other events. If not using Sendmail (default on unix servers), an SMTP Server must be specified.' => '定期移動類型将發送電子郵件以恢復密碼，以通知作者新評論和其他事件。如果不使用 Sendmail（unix 服務器上的默認設置），则必須指定 SMTP 服務器。',
+	'Periodically Movable Type will send email for password recovery, to inform authors of new comments, and other events. If not using Sendmail (default on unix servers), an SMTP Server must be specified.' => 'Movable Type 将定期發送電子郵件以恢復密碼，以通知作者新評論和其他事件。如果不使用 Sendmail（unix 服務器上的默認設置），则必須指定 SMTP 服務器。',
 	'Port number for Outbound Mail Server' => '出站郵件服務器的端口号',
 	'Port number of your SMTP Server.' => '您的 SMTP 服務器的端口号。',
 	'SMTP Auth Password' => 'SMTP 身份验证密碼',
@@ -5780,7 +5780,7 @@ use vars qw( @ISA %Lexicon );
 	'Static file path' => '静態文件路径',
 	'Static web path' => '静態網頁路径',
 	'This URL path can be in the form of [_1] or simply [_2]' => '此 URL 路径可以采用[_1]或简单的[_2]形式',
-	'This directory has either been renamed or moved to a location outside of the Movable Type directory.' => '此目錄已被重命名或移動到可移動類型之外的位置。目錄。',
+	'This directory has either been renamed or moved to a location outside of the Movable Type directory.' => '此目錄已被重命名或移動到 Movable Type 目錄之外的位置。',
 	'This path must be in the form of [_1]' => '此路径必須为[_1]的形式',
 	'This wizard will help you configure the basic settings needed to run Movable Type.' => '此向導将帮助您配置运行 Movable Type 所需的基本設置。',
 	'To create a new configuration file using the Wizard, remove the current configuration file and then refresh this page' => '要使用向導創建新的配置文件，请刪除当前的配置文件，然后刷新此頁面',

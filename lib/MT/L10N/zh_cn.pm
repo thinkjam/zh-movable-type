@@ -36,7 +36,7 @@ use vars qw( @ISA %Lexicon );
 	'Create Custom Field' => '创建自定义字段',
 	'Custom Fields' => '自定义字段',
 	'Customize the forms and fields for entries, pages, folders, categories, and users, storing exactly the information you need.' => '自定义条目、页面、文件夹、类别和用户的表单和字段，准确存储您需要的信息。',
-	'Movable Type' => '可移动文字',
+	'Movable Type' => 'Movable Type',
 	'Permission denied.' => '权限被拒绝。',
 	'Please ensure all required fields have been filled in.' => '请确保已填写所有必填字段。',
 	'Please enter valid URL for the URL field: [_1]' => '请在 URL 字段中输入有效的 URL：[_1]',
@@ -281,7 +281,7 @@ use vars qw( @ISA %Lexicon );
 
 ## default_templates/banner_footer.mtml
 	'This blog is licensed under a <a href="[_1]">Creative Commons License</a>.' => '此博客已获得<a href="  ">知识共享许可</a>许可。',
-	'_POWERED_BY' => 'Powered by <a href="https://www.sixapart.jp/movabletype/"><$MTProductName$></a> | 语言包由<a href="https://www.thinkjam.org/zoptuno/projects/zh-movable-type.html">平生一笑</a>维护',
+	'_POWERED_BY' => 'Powered by <a href="https://www.sixapart.jp/movabletype/"><$MTProductName$></a>',
 
 ## default_templates/calendar.mtml
 	'Fri' => 'Fri',
@@ -346,7 +346,7 @@ use vars qw( @ISA %Lexicon );
 	'Continue reading <a href="[_1]" rel="bookmark">[_2]</a>.' => '继续阅读 <a href="  " rel="bookmark">[_2]</a> .',
 
 ## default_templates/footer-email.mtml
-	'Powered by Movable Type [_1]' => '由可移动式[_1]提供动力',
+	'Powered by Movable Type [_1]' => 'Powered by Movable Type [_1] | 中文化由<a href="https://www.thinkjam.org/zoptuno/projects/zh-movable-type.html">平生一笑</a>维护',
 
 ## default_templates/javascript.mtml
 	'Edit' => '编辑',
@@ -467,7 +467,7 @@ use vars qw( @ISA %Lexicon );
 	'Invalid priority level [_1] at add_callback' => 'add_callback 的无效优先级 [_1]',
 	'LiveJournal' => 'LiveJournal',
 	'Missing configuration file. Maybe you forgot to move mt-config.cgi-original to mt-config.cgi?' => '缺少配置文件。也许您忘记将 mt-config.cgi-original 移至 mt-config.cgi？',
-	'Movable Type default' => '移动文字默认',
+	'Movable Type default' => 'Movable Type 默认',
 	'OpenID' => 'OpenID',
 	'Plugin error: [_1] [_2]' => '插件错误：[_1] [_2]',
 	'Powered by [_1]' => '由[_1]提供支持',
@@ -606,7 +606,7 @@ use vars qw( @ISA %Lexicon );
 	'Invalid parameter' => '参数无效',
 	'Manage Members' => '管理成员',
 	'Manage' => '管理',
-	'Movable Type News' => '移动文字新闻',
+	'Movable Type News' => 'Movable Type 新闻',
 	'Move Child Site(s)'=> 'Move Child Site(s) ',
 	'New' => '新建',
 	'No such blog [_1]' => '没有这样的博客 [_1]',
@@ -1960,7 +1960,7 @@ use vars qw( @ISA %Lexicon );
 	'Member' => '成员',
 	'Members' => '成员',
 	'Modified by' => '修改者',
-	'Movable Type Default' => '移动文字默认',
+	'Movable Type Default' => 'Movable Type 默认',
 	'My Items' => '我的项目',
 	'My [_1]' => '我的[_1]',
 	'MySQL Database (Recommended)' => 'MySQL 数据库（推荐）',
@@ -3140,8 +3140,8 @@ use vars qw( @ISA %Lexicon );
 	'Details' => '详细信息',
 	'Installed' => '已安装',
 	'MT home directory:' => 'MT 主目录：',
-	'Movable Type System Check Successful' => '移动文字系统检查成功',
-	'Movable Type System Check' => '移动文字系统检查',
+	'Movable Type System Check Successful' => 'Movable Type 检查成功',
+	'Movable Type System Check' => 'Movable Type 检查',
 	'Movable Type version:' => 'Movable Type 版本：',
 	'Operating system:' => '操作系统：',
 	'Perl include path:' => 'Perl 包含路径：',
@@ -3440,7 +3440,7 @@ use vars qw( @ISA %Lexicon );
 	'Invalid commenter login attempt from [_1] to blog [_2](ID: [_3]) which does not allow Movable Type native authentication.' => '评论者从[_1]登录博客 [_2]（ID：[_3]）的尝试无效，该尝试不允许 Movable Type 本机身份验证。',
 	'Invalid entry ID provided' => '提供的条目 ID 无效',
 	'Invalid login' => '登录无效',
-	'Movable Type Account Confirmation' => '移动文字账户确认',
+	'Movable Type Account Confirmation' => 'Movable Type 账户确认',
 	'Name and E-mail address are required.' => '姓名和电子邮件地址为必填项。',
 	'No entry was specified; perhaps there is a template problem?' => '未指定条目；也许存在模板问题？',
 	'No entry_id' => '没有entry_id',
@@ -3823,7 +3823,7 @@ use vars qw( @ISA %Lexicon );
 	'Run [_1]' => '运行 [_1]',
 	'Tag Attributes:' => '标签属性：',
 	'Text Filters' => '文本过滤器',
-	'This plugin has not been upgraded to support Movable Type [_1]. As such, it may not be completely functional.' => '此插件尚未升级为支持可动式[_1]。因此，它可能无法完全发挥作用。',
+	'This plugin has not been upgraded to support Movable Type [_1]. As such, it may not be completely functional.' => '此插件尚未升级为支持 Movable Type [_1]。因此，它可能无法完全发挥作用。',
 	'Your plugin settings have been reset.' => '您的插件设置已重置。',
 	'Your plugin settings have been saved.' => '您的插件设置已保存。',
 	'Your plugins have been reconfigured.' => '您的插件已重新配置。',
@@ -4308,7 +4308,7 @@ use vars qw( @ISA %Lexicon );
 	'Back (x)' => '返回(x)',
 	'Reset (s)' => '重置',
 	'Reset Password' => '重置密码',
-	'Sign in to Movable Type (s)' => '登录活字印刷',
+	'Sign in to Movable Type (s)' => '登录 Movable Type',
 	'Sign in to Movable Type' => '登录 Movable Type',
 	'The email address provided is not unique.  Please enter your username.' => '提供的电子邮件地址不是唯一的。  请输入您的用户名。',
 
@@ -4986,7 +4986,7 @@ use vars qw( @ISA %Lexicon );
 	q{_BACKUP_DOWNLOAD_MESSAGE} => q{_BACKUP_DOWNLOAD_MESSAGE},
 
 ## tmpl/admin2023/cms/include/backup_start.tmpl
-	'Exporting Movable Type' => '导出可移动文字',
+	'Exporting Movable Type' => '导出 Movable Type',
 
 ## tmpl/admin2023/cms/include/basic_filter_forms.tmpl
 	'[_1] [_2] [_3]' => '[_1][_2][_3]',
@@ -5048,7 +5048,7 @@ use vars qw( @ISA %Lexicon );
 	'Republish selected [_1] (r)' => '重新发布选定的[_1](r)',
 
 ## tmpl/admin2023/cms/include/copyright.tmpl
-	'Copyright &copy; 2001 Six Apart. All Rights Reserved.' => '版权&复制； 2001年六人分开。保留所有权利。',
+	'Copyright &copy; 2001 Six Apart. All Rights Reserved.' => 'Copyright &copy; 2001 Six Apart. All Rights Reserved. | 中文化由<a href="https://www.thinkjam.org/zoptuno/projects/zh-movable-type.html">平生一笑</a>维护',
 
 ## tmpl/admin2023/cms/include/entry_table.tmpl
 	'<a href="[_1]" class="alert-link">Create an entry</a> now.' => '<a href="  " class="alert-link"> 立即创建条目</a>。',
@@ -5064,7 +5064,7 @@ use vars qw( @ISA %Lexicon );
 	'Send Us Feedback' => '向我们发送反馈',
 	'Support' => 'Support',
 	'This is a alpha version of Movable Type and is not recommended for production use.' => '这是 Movable Type 的 Alpha 版本，不建议用于生产用途。',
-	'This is a beta version of Movable Type and is not recommended for production use.' => '这是 Beta 版本。可移动类型，不建议用于生产用途。',
+	'This is a beta version of Movable Type and is not recommended for production use.' => '这是 Movable Type Beta 版本，不建议用于生产用途。',
 	'https://plugins.movabletype.org/' => 'https://plugins.movabletype.org/',
 	'https://www.movabletype.org' => 'https://www.movabletype.org',
 	'with' => 'with',
@@ -5536,7 +5536,7 @@ use vars qw( @ISA %Lexicon );
 	'An error occurred during the import process: [_1] Please check activity log for more details.' => '导入过程中发生错误：[_1] 请检查活动日志以了解更多详细信息。',
 
 ## tmpl/admin2023/cms/restore_start.tmpl
-	'Importing Movable Type' => '导入可移动类型',
+	'Importing Movable Type' => '导入 Movable Type',
 
 ## tmpl/admin2023/cms/search_replace.tmpl
 	'(search only)' => '（仅搜索）',
@@ -5626,7 +5626,7 @@ use vars qw( @ISA %Lexicon );
 
 ## tmpl/admin2023/cms/widget/mt_news.tmpl
 	'News' => '新闻',
-	'No Movable Type news available.' => '没有可用的可移动类型新闻。',
+	'No Movable Type news available.' => '没有可用的 Movable Type 新闻。',
 
 ## tmpl/admin2023/cms/widget/notification_dashboard.tmpl
 	'Messages from the system' => '来自系统的消息',
@@ -5729,7 +5729,7 @@ use vars qw( @ISA %Lexicon );
 	'Mail address to which test email should be sent' => '测试电子邮件应发送到的邮件地址已发送',
 	'Outbound Mail Server (SMTP)' => '出站邮件服务器 (SMTP)',
 	'Password for your SMTP Server.' => '您的 SMTP 服务器密码。',
-	'Periodically Movable Type will send email for password recovery, to inform authors of new comments, and other events. If not using Sendmail (default on unix servers), an SMTP Server must be specified.' => '定期移动类型将发送电子邮件以恢复密码，以通知作者新评论和其他事件。如果不使用 Sendmail（unix 服务器上的默认设置），则必须指定 SMTP 服务器。',
+	'Periodically Movable Type will send email for password recovery, to inform authors of new comments, and other events. If not using Sendmail (default on unix servers), an SMTP Server must be specified.' => 'Movable Type 将定期发送电子邮件以恢复密码，以通知作者新评论和其他事件。如果不使用 Sendmail（unix 服务器上的默认设置），则必须指定 SMTP 服务器。',
 	'Port number for Outbound Mail Server' => '出站邮件服务器的端口号',
 	'Port number of your SMTP Server.' => '您的 SMTP 服务器的端口号。',
 	'SMTP Auth Password' => 'SMTP 身份验证密码',
@@ -5780,7 +5780,7 @@ use vars qw( @ISA %Lexicon );
 	'Static file path' => '静态文件路径',
 	'Static web path' => '静态网页路径',
 	'This URL path can be in the form of [_1] or simply [_2]' => '此 URL 路径可以采用[_1]或简单的[_2]形式',
-	'This directory has either been renamed or moved to a location outside of the Movable Type directory.' => '此目录已被重命名或移动到可移动类型之外的位置。目录。',
+	'This directory has either been renamed or moved to a location outside of the Movable Type directory.' => '此目录已被重命名或移动到 Movable Type 目录之外的位置。',
 	'This path must be in the form of [_1]' => '此路径必须为[_1]的形式',
 	'This wizard will help you configure the basic settings needed to run Movable Type.' => '此向导将帮助您配置运行 Movable Type 所需的基本设置。',
 	'To create a new configuration file using the Wizard, remove the current configuration file and then refresh this page' => '要使用向导创建新的配置文件，请删除当前的配置文件，然后刷新此页面',

@@ -141,7 +141,7 @@ use utf8;
 	'Drop Down Menu' => '下拉菜单',
 	'Embed Object' => '嵌入對象',
 	'Exclude Custom Fields' => '排除自定义字段',
-	'Movable Type' => '可移動文字',
+	'Movable Type' => 'Movable Type',
 	'Multi-Line Text' => '多行文本',
 	'Permission denied.' => '權限被拒绝。',
 	'Please ensure all required fields have been filled in.' => '请確保已填写所有必填字段。',
