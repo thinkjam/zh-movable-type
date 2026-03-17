@@ -56,7 +56,7 @@ sub EXPORT_ENCODING()      {'UTF-8'}
 sub PUBLISH_CHARSET()      {'UTF-8'}
 
 my $ENCODING_NAMES = [
-    { 'name' => 'guess',     'display_name' => 'AUTO DETECT' },
+    { 'name' => 'guess',     'display_name' => '自動檢測' },
     { 'name' => 'utf8',      'display_name' => 'UTF-8' },
     { 'name' => 'big5',      'display_name' => 'Big5' },
     { 'name' => 'ascii',     'display_name' => 'ISO-8859-1' },

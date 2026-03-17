@@ -128,7 +128,7 @@ use utf8;
 <p>色は匂へど 散りぬるを 我が世誰ぞ 常ならむ 有為の奥山 今日越えて 浅き夢見じ 酔ひもせず</p>
 <p>あめ つち ほし そら やま かは みね たに くも きり むろ こけ ひと いぬ うへ すゑ ゆわ さる おふ せよ えのえを なれ ゐて</p>
 ',
-	'__SELECT_FILTER_VERB' => '__SELECT_FILTER_VERB',
+	'__SELECT_FILTER_VERB' => '是',
 	'https://www.sixapart.com/movabletype/' => 'https://www.sixapart.com/movabletype/',
 
 ## addons/Commercial.pack/lib/CustomFields/App/CMS.pm
