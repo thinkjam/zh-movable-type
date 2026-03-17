@@ -1,0 +1,295 @@
+# 中文语言包贡献者信息
+# 贡献者：平生一笑
+# Website：https://www.thinkjam.org/zoptuno
+# X：https://x.com/Zoptuno
+
+package Comments::L10N::zh_cn;
+
+use strict;
+use warnings;
+use utf8;
+use base 'Comments::L10N';
+
+our %Lexicon = (
+
+## plugins/Comments/config.yaml
+	'Ban Commenter(s)' => '禁止评论者',
+	'Comment Detail' => '注释详细信息',
+	'Comment Listing' => '评论列表',
+	'Comment Preview' => '评论预览',
+	'Comment Response' => '评论回复',
+	'Comment throttle' => '评论节流',
+	'Comment' => '评论',
+	'Commenter Confirm' => '评论者确认',
+	'Commenter Notify' => '评论者通知',
+	'Commenter' => '评论者',
+	'Commenters' => '评论者',
+	'Comments' => '评论',
+	'Delete' => '删除',
+	'Displays error, pending or confirmation message for comments.' => '显示评论的错误、待处理或确认消息。',
+	'Displays preview of comment.' => '显示评论预览。',
+	'Improved listing of comments.' => '改进了注释列表。',
+	'Manage Commenters' => '管理评论者',
+	'Mark as Spam' => '标记为垃圾邮件',
+	'New Comment' => '新评论',
+	'Provides Comments.' => '提供评论。',
+	'Publish' => '发布',
+	'Recent Comments' => '最近评论',
+	'Registration' => '注册',
+	'Remove Spam status' => '删除垃圾邮件状态',
+	'Trust Commenter(s)' => '信任评论者',
+	'Unban Commenter(s)' => '取消禁止评论者',
+	'Unpublish Comment(s)' => '取消发布评论',
+	'Untrust Commenter(s)' => '不信任评论者',
+
+## plugins/Comments/default_templates/comment_detail.mtml
+	'[_1] replied to <a href="[_2]">comment from [_3]</a>' => '[_1] 回复了来自[_3]的<a href=" X1X ">评论</a>',
+
+## plugins/Comments/default_templates/comment_preview.mtml
+	'(You may use HTML tags for style)' => '（您可以使用 HTML 标记作为样式）',
+	'Banner Footer' => '横幅页脚',
+	'Banner Header' => '横幅标题',
+	'Cancel' => '取消',
+	'Email Address' => '电子邮件地址',
+	'HTML Head' => 'HTML Head',
+	'Leave a comment' => '发表评论',
+	'Name' => '名称',
+	'Preview' => '预览',
+	'Previewing your Comment' => '预览您的评论',
+	'Replying to comment from [_1]' => '回复[_1]的评论',
+	'Sidebar' => '侧边栏',
+	'Submit' => '提交',
+	'URL' => 'URL',
+
+## plugins/Comments/default_templates/comment_response.mtml
+	'Back' => '返回',
+	'Comment Submission Error' => '评论提交错误',
+	'Confirmation...' => '确认...',
+	'Return to the <a href="[_1]">original entry</a>.' => '返回<a href="  ">原始条目</a>。',
+	'Thank you for commenting.' => '感谢您发表评论。',
+	'Your comment has been received and held for review by a blog administrator.' => '您的评论已收到，并由博客管理员审核。',
+	'Your comment has been submitted!' => '您的评论已被已提交！',
+	'Your comment submission failed for the following reasons: [_1]' => '您的评论提交失败，原因如下：[_1]',
+
+## plugins/Comments/default_templates/comment_throttle.mtml
+	'A visitor to your blog [_1] has automatically been banned by adding more than the allowed number of comments in the last [_2] seconds.' => '博客[_1]的访问者由于在最后[_2]秒内添加的评论数量超过允许数量而被自动禁止。',
+	'If this was an error, you can unblock the IP address and allow the visitor to add it again by logging in to your Movable Type installation, choosing Blog Config - IP Banning, and deleting the IP address [_1] from the list of banned addresses.' => '如果这是一个错误，您可以解锁 IP 地址并允许访问者再次添加它，方法是登录您的 Movable Type 安装，选择“博客配置 - IP 禁止”，然后从禁止地址列表中删除 IP 地址 [_1]。',
+	'This was done to prevent a malicious script from overwhelming your weblog with comments. The banned IP address is' => '这样做是为了防止恶意脚本用评论淹没您的博客。被禁止的IP地址是',
+
+## plugins/Comments/default_templates/commenter_confirm.mtml
+	'For your security and to prevent fraud, we ask you to confirm your account and email address before continuing. Once your account is confirmed, you will immediately be allowed to comment on [_1].' => '为了您的安全并防止欺诈，我们要求您在继续之前确认您的帐户和电子邮件地址。一旦您的帐户得到确认，您将立即可以在[_1]上发表评论。',
+	'Mail Footer' => '邮件页脚',
+	'Sincerely,' => '真挚地，',
+	'Thank you for registering an account to comment on [_1].' => '感谢您注册帐户来评论 [_1]。',
+	'To confirm your account, please click on the following URL, or cut and paste this URL into a web browser:' => '要确认您的帐户，请单击以下 URL，或将此 URL 剪切并粘贴到网络浏览器中：',
+	q{If you did not make this request, or you don't want to register for an account to comment on [_1], then no further action is required.} => q{如果您没有提出此请求，或者您不想注册帐户来评论 [_1]，则无需执行进一步操作。},
+
+## plugins/Comments/default_templates/commenter_notify.mtml
+	'Email: [_1]' => '电子邮件：[_1]',
+	'Full Name: [_1]' => '全名：[_1]',
+	'New User Information:' => '新用户信息：',
+	'To view or edit this user, please click on or cut and paste the following URL into a web browser:' => '要查看或编辑此用户，请单击或剪切以下 URL 并将其粘贴到网络浏览器中：',
+	'Username: [_1]' => '用户名：[_1]',
+	q{This email is to notify you that a new user has successfully registered on the blog '[_1]'. Here is some information about this new user.} => q{这封电子邮件是为了通知您新用户已在博客“[_1]”上成功注册。以下是有关该新用户的一些信息。},
+
+## plugins/Comments/default_templates/comments.mtml
+	'# Comments' => '＃ 评论',
+	'1 Comment' => '1 条评论',
+	'Next' => '下一个',
+	'No Comments' => '无注释',
+	'Previous' => '上一个',
+	'Remember personal info?' => '记住个人信息吗？',
+	'The data is modified by the paginate script' => '数据由分页脚本修改',
+
+## plugins/Comments/default_templates/new-comment.mtml
+	'Approve comment:' => '批准评论：',
+	'Commenter IP address: [_1]' => '评论者IP地址： [_1]',
+	'Commenter URL: [_1]' => '评论者网址：[_1]',
+	'Commenter email address: [_1]' => '评论者电子邮件地址：[_1]',
+	'Commenter name: [_1]' => '评论者姓名：[_1]',
+	'Edit comment:' => '编辑评论：',
+	'Report the comment as spam:' => '将评论举报为垃圾邮件：',
+	'View comment:' => '查看评论：',
+	q{A new comment has been posted on your site '[_1]', on entry #[_2] ([_3]).} => q{已在您网站“[_1]”的条目 #[_2]([_3]) 上发布了一条新评论。},
+	q{A new comment has been posted on your site '[_1]', on page #[_2] ([_3]).} => q{已在您网站“[_1]”的第 #[_2]([_3]) 页上发布了一条新评论)。},
+	q{An unapproved comment has been posted on your site '[_1]', on entry #[_2] ([_3]). You need to approve this comment before it will appear on your site.} => q{您的网站“[_1]”上的条目 #[_2]([_3]) 上发布了未经批准的评论。您需要批准此评论才能显示在您的网站上。},
+	q{An unapproved comment has been posted on your site '[_1]', on page #[_2] ([_3]). You need to approve this comment before it will appear on your site.} => q{您的网站“[_1]”第 #[_2]([_3]) 页上发布了一条未经批准的评论。您需要批准此评论，然后它才会显示在您的网站上。},
+
+## plugins/Comments/default_templates/recent_comments.mtml
+	'<strong>[_1]:</strong> [_2] <a href="[_3]" title="full comment on: [_4]">read more</a>' => '<strong>[_1]: </strong>[_2]<a href=" X2X " title="full comment on:  X3X "> 了解更多 </a>',
+
+## plugins/Comments/lib/Comments.pm
+	'(Deleted)' => '（已删除）',
+	'Approved' => '已批准',
+	'Author' => '作者',
+	'Banned' => '已禁止',
+	'Can comment and manage feedback.' => '可以评论和管理反馈。',
+	'Can comment.' => '可以评论。',
+	'Comment Text' => '评论文字',
+	'Commenter Status' => '评论者状态',
+	'Comments in This Site' => '本网站中的评论',
+	'Comments in the last 7 days' => '过去 7 天内的评论',
+	'Comments on My Entries/Pages' => '对我的条目/页面的评论',
+	'Comments on [_1]: [_2]' => '对[_1]的评论： [_2]',
+	'Comments on my entries/pages' => '对我的条目/页面的评论',
+	'Date Commented' => '评论日期',
+	'Deleted' => '已删除',
+	'Disabled Commenters' => '禁用评论者',
+	'Disabled' => '已禁用',
+	'Edit this [_1] commenter.' => '编辑此[_1]评论者。',
+	'Edit' => '编辑',
+	'Enabled Commenters' => '启用评论者',
+	'Enabled' => '已启用',
+	'Entries with Comments Within the Last 7 Days' => '过去 7 天内有评论的条目',
+	'Entry' => '文章',
+	'Entry/Page Status' => '条目/页面状态',
+	'Entry/Page' => '条目/页面',
+	'Externally Authenticated Commenters' => '经过外部身份验证的评论者',
+	'IP Address' => 'IP地址',
+	'Moderator' => '审核者',
+	'Non-spam comments on this website' => '此网站上的非垃圾评论',
+	'Non-spam comments' => '非垃圾评论',
+	'Not spam' => '不是垃圾邮件',
+	'Pages with comments in the last 7 days' => '过去 7 天内有评论的页面',
+	'Pending Commenters' => '待处理的评论者',
+	'Pending comments' => '待处理的评论',
+	'Pending' => '待审核',
+	'Published comments' => '发表评论',
+	'Registered User' => '注册用户',
+	'Reply' => '回复',
+	'Reported as spam' => '已报告为垃圾邮件',
+	'Search for other comments from anonymous commenters' => '搜索来自匿名的其他评论评论者',
+	'Search for other comments from this deleted commenter' => '搜索此已删除评论者的其他评论',
+	'Spam comments' => '垃圾邮件注释',
+	'Status' => '状态',
+	'Unapproved' => '未批准',
+	'User Info' => '用户信息',
+	'Username' => '用户名',
+	'Userpic' => '用户图片',
+	'[_1] ( id:[_2] ) does not exists.' => '[_1]（id：[_2]）不存在。',
+	'__ANONYMOUS_COMMENTER' => '__ANONYMOUS_COMMENTER',
+	'__COMMENTER_APPROVED' => '__COMMENTER_APPROVED',
+	'__COMMENT_COUNT' => '__COMMENT_COUNT',
+	q{All comments by [_1] '[_2]'} => q{[_1]“[_2]”的所有评论},
+
+## plugins/Comments/lib/Comments/App/CMS.pm
+	'Are you sure you want to remove all comments reported as spam?' => '您确定要删除所有报告为垃圾邮件的评论吗？',
+	'Delete all Spam comments' => '删除所有垃圾评论',
+
+## plugins/Comments/lib/Comments/Blog.pm
+	'Cloning comments for blog...' => '克隆博客的评论...',
+	'[_1] records processed.' => '[_1] 记录已处理。',
+	'[_1] records processed...' => '[_1] 记录已处理...',
+
+## plugins/Comments/lib/Comments/Import.pm
+	'Saving comment failed: [_1]' => '保存评论失败：[_1]',
+	'failed' => 'failed',
+	'ok (ID [_1])' => 'ok (ID [_1])',
+	q{Creating new comment (from '[_1]')...} => q{创建新评论（来自“[_1]”）...},
+
+## plugins/Comments/lib/Comments/Upgrade.pm
+	'Creating initial comment roles...' => '创建初始评论角色...',
+
+## plugins/Comments/lib/MT/App/Comments.pm
+	'(Display Name not set)' => '（未设置显示名称）',
+	'<a href="[_1]">Return to the original page.</a>' => '<a href="  "> 返回原始页面。 </a>',
+	'All required fields must be populated.' => '必须填充所有必填字段。',
+	'An error occurred.' => '发生错误。',
+	'An error occurred: [_1]' => '发生错误：[_1]',
+	'Cannot load blog #[_1].' => '无法加载博客 #[_1]。',
+	'Cannot load entry #[_1].' => '无法加载条目 #[_1]。',
+	'Cannot load template' => '无法加载模板',
+	'Comment save failed with [_1]' => '评论保存失败，[_1]',
+	'Comment text is required.' => '评论文字为必填项。',
+	'Commenter profile could not be updated: [_1]' => '评论者个人资料无法更新：[_1]',
+	'Commenter profile has successfully been updated.' => '评论者个人资料已成功更新已更新。',
+	'Comments are not allowed on this entry.' => '不允许对此条目发表评论。',
+	'Display Name' => '显示名称',
+	'Email Address is invalid.' => '电子邮件地址无效。',
+	'Failed to verify the current password.' => '无法验证当前主题',
+	'For improved security, please change your password' => '为了提高安全性，请更改您的密码',
+	'IP Banned Due to Excessive Comments' => '因评论过多而封禁IP',
+	'IP [_1] banned because comment rate exceeded 8 comments in [_2] seconds.' => 'IP [_1]因评论率在[_2]秒内超过8条评论而被封禁。',
+	'Invalid commenter login attempt from [_1] to blog [_2](ID: [_3]) which does not allow Movable Type native authentication.' => '评论者从[_1]登录博客 [_2]（ID：[_3]）的尝试无效，该尝试不允许 Movable Type 本机身份验证。',
+	'Invalid entry ID provided' => '提供的条目 ID 无效',
+	'Invalid login' => '登录无效',
+	'Invalid login.' => '登录无效。',
+	'Invalid request' => '无效请求',
+	'Invalid request.' => '无效请求。',
+	'Movable Type Account Confirmation' => '移动文字账户确认',
+	'Name and E-mail address are required.' => '姓名和电子邮件地址为必填项。',
+	'No entry was specified; perhaps there is a template problem?' => '未指定条目；也许存在模板问题？',
+	'No entry_id' => '没有entry_id',
+	'No id' => '无 id',
+	'No such comment' => '没有这样的评论',
+	'Passwords do not match.' => '密码不匹配。',
+	'Permission denied.' => '权限被拒绝。',
+	'Publishing failed: [_1]' => '发布失败：[_1]',
+	'Registration is required.' => '需要注册。',
+	'Signing up is not allowed.' => '不允许注册。',
+	'Somehow, the entry you tried to comment on does not exist' => '不知怎的，您尝试评论的条目不存在',
+	'Successfully authenticated, but signing up is not allowed.  Please contact your Movable Type system administrator.' => '已成功通过身份验证，但不允许注册。  请与您的 Movable Type 系统管理员联系。',
+	'System Email Address is not configured.' => '未配置系统电子邮件地址。',
+	'Text entered was wrong.  Try again.' => '输入的文本错误。  再试一次。',
+	'Thanks for the confirmation.  Please sign in to comment.' => '感谢您的确认。  请登录发表评论。',
+	'The login could not be confirmed because of a database error ([_1])' => '由于数据库错误 ([_1])，无法确认登录',
+	'The sign-in attempt was not successful; Please try again.' => '登录尝试不成功；请重试。',
+	'URL is invalid.' => 'URL 无效。',
+	'You are trying to redirect to external resources. If you trust the site, please click the link: [_1]' => '您正在尝试重定向到外部资源。如果您信任该网站，请单击链接：[_1]',
+	'You need to sign up first.' => '您需要先注册。',
+	'Your confirmation has expired. Please register again.' => '您的确认已过期。请重新注册。',
+	'Your session has expired. Please sign in again to comment.' => '您的会话已过期。请重新登录以发表评论。',
+	'[_1] contains an invalid character: [_2]' => '[_1] 包含无效字符：[_2]',
+	'_THROTTLED_COMMENT' => '_THROTTLED_COMMENT',
+	q{Comment on "[_1]" by [_2].} => q{[_2]对“[_1]”的评论.},
+	q{Commenter '[_1]' (ID:[_2]) has been successfully registered.} => q{评论者“[_1]”（ID：[_2]）已成功注册。},
+	q{Error assigning commenting rights to user '[_1] (ID: [_2])' for weblog '[_3] (ID: [_4])'. No suitable commenting role was found.} => q{向用户“[_1] (ID:[_2])”分配博客“[_3] (ID:[_4])”的评论权限时出错。未找到合适的评论角色。},
+	q{Failed comment attempt by pending registrant '[_1]'} => q{等待注册者“[_1]”的评论尝试失败},
+	q{Failed login attempt by disabled user '[_1]'} => q{已禁用用户“[_1]”尝试登录失败},
+	q{Failed login attempt by unknown user '[_1]'} => q{未知用户“[_1]”尝试登录失败'},
+	q{Invalid URL '[_1]'} => q{无效 URL“[_1]”},
+	q{Invalid email address '[_1]'} => q{无效的电子邮件地址“[_1]”},
+	q{Login failed: password was wrong for user '[_1]'} => q{登录失败：用户“[_1]”的密码错误},
+	q{Login failed: permission denied for user '[_1]'} => q{登录失败：用户“[_1]”的权限被拒绝},
+	q{No such entry '[_1]'.} => q{没有这样的条目“[_1]”。},
+	q{[_1] registered to the blog '[_2]'} => q{[_1] 已注册到博客“[_2]”},
+
+## plugins/Comments/lib/MT/CMS/Comment.pm
+	'(untitled)' => '（无标题）',
+	'Commenter Details' => '评论者详情',
+	'Edit Comment' => '编辑评论',
+	'No such commenter [_1].' => '没有这样的评论者[_1]。',
+	'Orphaned comment' => '孤立评论',
+	'The entry corresponding to this comment is missing.' => '缺少与此评论对应的条目。',
+	'The parent comment id was not specified.' => '未指定父评论 ID。',
+	'The parent comment was not found.' => '未找到父评论。',
+	'Users' => '用户',
+	'You cannot create a comment for an unpublished entry.' => '您无法为未发布的条目创建评论。',
+	'You cannot reply to unapproved comment.' => '您无法回复未经批准的评论。',
+	'You cannot reply to unpublished comment.' => '您无法回复未发布的评论。评论。',
+	'You do not have permission to approve this comment.' => '您无权批准此评论。',
+	'You do not have permission to approve this trackback.' => '您无权批准此引用。',
+	q{Comment (ID:[_1]) by '[_2]' deleted by '[_3]' from entry '[_4]'} => q{“[_2]”的注释（ID：[_1]）已被“[_3]”从条目“[_4]”中删除},
+	q{User '[_1]' banned commenter '[_2]'.} => q{用户“[_1]”禁止评论者“[_2]”。},
+	q{User '[_1]' trusted commenter '[_2]'.} => q{用户“[_1]”可信评论者“[_2]”。},
+	q{User '[_1]' unbanned commenter '[_2]'.} => q{用户“[_1]”取消禁止评论者“[_2]”。},
+	q{User '[_1]' untrusted commenter '[_2]'.} => q{用户“[_1]”不受信任评论者“[_2]”。},
+
+## plugins/Comments/lib/MT/Template/Tags/Comment.pm
+	'Anonymous' => '匿名',
+	'Comment Form' => '评论表单',
+	'The MTCommentFields tag is no longer available.  Please include the [_1] template module instead.' => 'MTCommentFields 标记不再可用。  请包含[_1]模板模块。',
+	'You used an [_1] tag outside of the proper context.' => '您在正确的上下文之外使用了[_1]标记。',
+	q{No such user '[_1]'} => q{没有这样的用户“[_1]”},
+
+## plugins/Comments/lib/MT/Template/Tags/Commenter.pm
+	q{This '[_1]' tag has been deprecated. Please use '[_2]' instead.} => q{此“[_1]”标记已被弃用。请改用“[_2]”。},
+
+## plugins/Comments/php/function.mtcommenternamethunk.php
+	q{The '[_1]' tag has been deprecated. Please use the '[_2]' tag in its place.} => q{“[_1]”标记已被弃用。请在其位置使用“[_2]”标记。},
+
+## config.yaml
+    'Migrating the URL field in comment data...' => '正在迁移评论数据中的 URL 字段...',
+);
+
+1;
