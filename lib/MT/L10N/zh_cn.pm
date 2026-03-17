@@ -1389,8 +1389,8 @@ use vars qw( @ISA %Lexicon );
 	'Download system-wide logs' => '下载系统范围的内容日志',
 
 ## lib/MT/CMS/Plugin.pm
-	'__PLUGIN_LABEL_DEFAULT' => '__PLUGIN_LABEL_DEFAULT',
-	'__PLUGIN_LABEL_DEFAULT_BUT_MODIFIED' => '__PLUGIN_LABEL_DEFAULT_BUT_MODIFIED',
+	'__PLUGIN_LABEL_DEFAULT' => '默认',
+	'__PLUGIN_LABEL_DEFAULT_BUT_MODIFIED' => '默认（已修改）',
 	'Added' => '已添加',
 	'Error saving plugin settings: [_1]' => '保存插件设置时出错：[_1]',
 	'Individual Plugins' => '单独插件',
